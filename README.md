@@ -5,7 +5,7 @@
 A data structure such as a queue has been created for this laboratory work. Its job is to organise and manipulate FIFO data (first input - first output). Methods such as adding an element to the queue ( push ), removing an element ( pop ) and checking for emptiness have been implemented. The queue was implemented on the basis of a linked list and the input data is a value type. 
 The linked list was implemented using the Node data structure, which has only one ptr field - a pointer to the current queue object. 
 
-`void Queue::push(Task* d)` -  function accepts as a parameter the execution time of the task (Tusk type). Allocate memory for a new object and set a pointer to this object 
+`void Queue::push(Task* d)` -  function accepts as a parameter the execution time of the task (Task type). Allocate memory for a new object and set a pointer to this object 
 
 `Task* Queue::pop()` - the function takes the object out of the queue. First it receives the pointer to the first element of the queue, then it moves the pointer to the previous element and returns the element that should have been removed (in order to display the information that it was poisoned afterwards). 
 
