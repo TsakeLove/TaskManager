@@ -36,4 +36,4 @@ Two streams were used to implement multithreadreading. The first one performs th
 
 
 ### Graphic
-
+ ![alt text](picture/output.png "Output")​
