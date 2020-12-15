@@ -57,7 +57,7 @@ bool Queue::isEmpty() {
 class TaskManager {
 public:
     Queue queue;
-    void add(int times);
+    void add(int count);
     void execution();
     static void output(string text);
 };
